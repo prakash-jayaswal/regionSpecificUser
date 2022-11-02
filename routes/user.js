@@ -10,8 +10,10 @@ export default function (Router ) {
             // check for correct message
             let check = await User.exists({ email: req.body.email })
             if (check) throw new Error('Email already exist')
-            req.body.region = await getRegion(req.body.lat, req.body.lng)
-            if(!req.body.region) throw new Error('Not belongs to any region')
+            let {regionName,location} = await getRegion(req.body.lat, req.body.lng)
+            if (!regionName) throw new Error('Not belongs to indian regions')
+            req.body.location = location
+            req.body.region = regionName
             // lets register in DB
             let user = new User(req.body)
             user = await user.save()
