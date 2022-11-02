@@ -1,0 +1,15 @@
+@hostname = http://localhost:5001
+
+###
+post {{hostname}}/signup
+Content-Type: application/json
+
+{
+  "name":"prakash jayawal",
+  "email":"prj11@gmail.com",
+  "password":"abc",
+  "age":20,
+  "lat":73.005816,
+  "lng":20.223409
+}
+
