@@ -6,10 +6,10 @@ Content-Type: application/json
 
 {
   "name":"prakash jayawal",
-  "email":"prj11@gmail.com",
+  "email":"prj11111@gmail.com",
   "password":"abc",
   "age":20,
-  "lat":73.005816,
-  "lng":20.223409
+  "lng":20.23819623232004,
+  "lat":72.9883987380813
 }
 
