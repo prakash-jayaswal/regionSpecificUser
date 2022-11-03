@@ -6,12 +6,14 @@ Content-Type: application/json
 
 {
   "name":"prakash jayawal",
-  "email":"12345@gmail.com",
+  "email":"1234111151@gmail.com",
   "password":"abc",
   "age":20,
-  "lat":17.3850,
-  "lng":78.4867
+  "lat":26.373867896137224,
+  "lng": 77.6883667402968
 }
+
+# 28.5355° N, 77.3910 UP
 
 
 
